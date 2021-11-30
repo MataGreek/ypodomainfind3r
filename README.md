@@ -1,4 +1,4 @@
-<h1>YPODOMAINFIND3R</h1>
+# YPODOMAIN FIND3R
 <br>
 <h3>That program coded because i wanted to make something different from wordlists.<br>My last script for subdomain finder, was with a wordlist. But now is searching automatically<br>in browsers and it takes only 5-10 seconds</h3><br>
 
@@ -35,4 +35,4 @@ The output file will be in output folder.
 ~ Twitter - [@vbourantanis](https://twitter.com/vbourantanis)
 <br>
 
-[Back to the top](#project-name)
+[Back to the top](#ypodomain-find3r)
