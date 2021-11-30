@@ -29,10 +29,10 @@ The output file will be in output folder.
 <h1>Author Info</h1>
 <br>
 
-~ Facebook - [@vbourantaniss](https://www.facebook.com/vbourantaniss)
+~ Facebook - [@vbourantaniss](https://www.facebook.com/matahellenichacker)
 <br>
 
-~ Twitter - [@vbourantanis](https://twitter.com/vbourantanis)
+~ Twitter - [@vbourantanis](https://twitter.com/matahellenic)
 <br>
 
 [Back to the top](#ypodomain-find3r)
