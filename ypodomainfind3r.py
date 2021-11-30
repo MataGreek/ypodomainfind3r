@@ -43,6 +43,8 @@ def check_updates():
         with open('./core/version.txt') as vf:
             torinover = vf.read().strip()
         if neover == torinover:
+            print("")
+        else:
             ask = input("[+] Version "+str(neover)+" is available. Do you want to update? [Y/n]:  ")
             if ask in yes_choice:
                 print("")
