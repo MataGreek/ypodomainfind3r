@@ -14,8 +14,8 @@ def parse_args():
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-u', '--url', type=str, required=True, help='Insert the target URL')
-    parser.add_argument('-o', '--output', type=str, required=False, help='Create an output file')
+    parser.add_argument('-u', '--url', type=str, metavar='', required=True, help='Insert the target URL')
+    parser.add_argument('-o', '--output', type=str, metavar='', required=False, help='Create an output file')
     return parser.parse_args()
 
 
@@ -48,7 +48,7 @@ def check_updates():
             ask = input("[+] Version "+str(neover)+" is available. Do you want to update? [Y/n]:  ")
             if ask in yes_choice:
                 print("")
-                print(" [!] Updating. Please do not close your application.")
+                print("[!] Updating. Please do not close your application.")
                 print("")
                 time.sleep(1)
 
@@ -63,8 +63,6 @@ def check_updates():
                     print("")
                     print("[+] Updated!")
                     time.sleep(1)
-                    print("")
-                    print(Fore.RED+" REOPEN THE PROGRAM FOR UPDATES TAKE AFFECT"+Fore.RESET)
                     print("")
                     pass
 
